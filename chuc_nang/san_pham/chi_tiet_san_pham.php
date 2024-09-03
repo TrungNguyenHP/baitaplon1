@@ -1,7 +1,7 @@
 <?php
     $_SESSION['trang_chi_tiet_gio_hang'] = "co";
     $id = $_GET['id'];
-    $conn = new mysqli("xoaserver.mysql.database.azure.com", "sqladmin", "#Nqthlr123", "ban_hang"); // Thay thế thông tin kết nối
+    $conn = new mysqli("coffee-shop.mysql.database.azure.com", "tuan", "Tohru14617", "ban_hang"); // Thay thế thông tin kết nối
     $tv = "SELECT * FROM san_pham WHERE id='$id'";
     $tv_1 = mysqli_query($conn, $tv);
     $tv_2 = mysqli_fetch_array($tv_1);
