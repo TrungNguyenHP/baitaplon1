@@ -14,10 +14,10 @@ if (isset($_SESSION['id_them_vao_gio'])) {
             $hang_duoc_mua .= $_SESSION['id_them_vao_gio'][$i] . "[|||]" . $_SESSION['sl_them_vao_gio'][$i] . "[|||||]";
         }
 
-        $servername = "xoaserver.mysql.database.azure.com";
-        $username = "sqladmin";
-        $password = "#Nqthlr123";
-        $dbname = "ban_hang";
+       $servername = "coffee-shop.mysql.database.azure.com";
+    $username = "tuan";
+    $password = "Tohru14617";
+    $dbname = "ban_hang";
 
         $conn = new mysqli($servername, $username, $password, $dbname);
 
