@@ -2,11 +2,10 @@
 $id = $_GET['id'];
 
 // Thực hiện kết nối tới cơ sở dữ liệu
-$servername = "xoaserver.mysql.database.azure.com";
-$username = "sqladmin";
-$password = "#Nqthlr123";
+$servername = "coffee-shop.mysql.database.azure.com";
+$username = "tuan";
+$password = "Tohru14617";
 $dbname = "ban_hang";
-
 $conn = new mysqli($servername, $username, $password, $dbname);
 
 // Kiểm tra kết nối
