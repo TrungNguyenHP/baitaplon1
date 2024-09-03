@@ -1,5 +1,5 @@
 <?php 
-	$conn = new mysqli("xoaserver.mysql.database.azure.com", "sqladmin", "#Nqthlr123", "ban_hang");
+	  $conn = new mysqli("coffee-shop.mysql.database.azure.com", "tuan", "Tohru14617", "ban_hang");
 	$so_du_lieu=15;
 	$tv="SELECT COUNT(*) FROM san_pham";
 	$tv_1=mysqli_query($conn, $tv); // Thay $connection bằng biến kết nối cơ sở dữ liệu của bạn
