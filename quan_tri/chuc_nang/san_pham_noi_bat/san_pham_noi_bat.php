@@ -4,7 +4,7 @@ if (!isset($bien_bao_mat)) {
 }
 
 // Kết nối đến cơ sở dữ liệu
-$conn = mysqli_connect('xoaserver.mysql.database.azure.com', 'sqladmin', '#Nqthlr123', 'ban_hang');
+$conn = mysqli_connect("coffee-shop.mysql.database.azure.com", "tuan", "Tohru14617", "ban_hang");
 
 // Kiểm tra kết nối
 if (!$conn) {
