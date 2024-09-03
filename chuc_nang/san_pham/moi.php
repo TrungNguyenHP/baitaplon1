@@ -1,7 +1,7 @@
 <br />
 <center>
 	<?php 
-	   	$conn = new mysqli("xoaserver.mysql.database.azure.com", "sqladmin", "#Nqthlr123", "ban_hang");
+	     $conn = new mysqli("coffee-shop.mysql.database.azure.com", "tuan", "Tohru14617", "ban_hang");
 		$tv="SELECT id, ten, hinh_anh FROM san_pham ORDER BY id DESC LIMIT 0,3";
 		$tv_1=mysqli_query($conn, $tv); // Thay $connection bằng biến kết nối cơ sở dữ liệu của bạn
 		while($tv_2=mysqli_fetch_array($tv_1))
