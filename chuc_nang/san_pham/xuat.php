@@ -2,7 +2,7 @@
     $id = $_GET['id'];
 
     $so_du_lieu = 15;
-    $mysqli = new mysqli("xoaserver.mysql.database.azure.com", "sqladmin", "Nqthlr123", "ban_hang");
+    $conn = new mysqli("coffee-shop.mysql.database.azure.com", "tuan", "Tohru14617", "ban_hang");
     if ($mysqli->connect_errno) {
         echo "Không kết nối được đến MySQL: " . $mysqli->connect_error;
         exit();
