@@ -5,7 +5,7 @@
 <?php
 	$id = $_GET['id'];
 	$tv = "SELECT * FROM san_pham WHERE id='$id'";
-	$connection = mysqli_connect("xoaserver.mysql.database.azure.com", "sqladmin", "#Nqthlr123", "ban_hang");
+	$connection = mysqli_connect("coffee-shop.mysql.database.azure.com", "tuan", "Tohru14617", "ban_hang");
 	$result = mysqli_query($connection, $tv);
 	$row = mysqli_fetch_array($result);
 
