@@ -1,9 +1,10 @@
     <?php
     // Thêm đoạn mã khởi tạo kết nối MySQLi vào đây
-    $servername = "xoaserver.mysql.database.azure.com";
-    $username = "sqladmin";
-    $password = "#Nqthlr123";
-    $database = "ban_hang";
+    $servername = "coffee-shop.mysql.database.azure.com";
+    $username = "tuan";
+    $password = "Tohru14617";
+    $dbname = "ban_hang";
+
 
     $conn = mysqli_connect($servername, $username, $password, $database);
 
