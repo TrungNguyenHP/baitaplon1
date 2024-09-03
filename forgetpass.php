@@ -2,7 +2,7 @@
 $loi="";
 if (isset($_POST['nutguiyeucau'])==true){
     $email = $_POST['email'];
-    $conn=new PDO("mysql:host=xoaserver.mysql.database.azure.com;dbname=ban_hang;charset=utf8","sqladmin","#Nqthlr123");
+    $conn=new PDO("mysql:host=coffee-shop.mysql.database.azure.com;dbname=ban_hang;charset=utf8","tuan","Tohru14617");
     $conn->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
 
     $sql="SELECT * FROM users WHERE email = ?";
