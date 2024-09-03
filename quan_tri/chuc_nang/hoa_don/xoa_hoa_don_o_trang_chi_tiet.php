@@ -8,9 +8,9 @@ $id = $_GET['id'];
 // Thực hiện truy vấn SQL để xóa dữ liệu
 // Sử dụng PDO hoặc MySQLi để thực hiện truy vấn, dưới đây là ví dụ sử dụng MySQLi:
 
-$servername = "xoaserver.mysql.database.azure.com";
-$username = "sqladmin";
-$password = "#Nqthlr123";
+$servername = "coffee-shop.mysql.database.azure.com";
+$username = "tuan";
+$password = "Tohru14617";
 $dbname = "ban_hang";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
