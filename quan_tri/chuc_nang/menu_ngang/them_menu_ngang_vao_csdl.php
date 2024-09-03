@@ -13,7 +13,7 @@ $noi_dung = $_POST['noi_dung'];
 $noi_dung = str_replace("'", "&#39;", $noi_dung);
 
 if ($ten_menu != "") {
-    $conn = new mysqli("xoaserver.mysql.database.azure.com", "sqladmin", "#Nqthlr123", "ban_hang");
+  $conn = new mysqli("coffee-shop.mysql.database.azure.com", "tuan", "Tohru14617", "ban_hang");
 
     if ($conn->connect_error) {
         die("Kết nối không thành công: " . $conn->connect_error);
