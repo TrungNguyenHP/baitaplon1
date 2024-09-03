@@ -1,5 +1,5 @@
 <?php 
-	$conn = new mysqli("xoaserver.mysql.database.azure.com", "sqladmin", "Nqthlr123", "ban_hang");
+	$conn = new mysqli("coffee-shop.mysql.database.azure.com", "tuan", "Tohru14617", "ban_hang");
 	if(trim($_GET['tu_khoa'])!=""){ 
 		$m=explode(" ",$_GET['tu_khoa']);    
 		$chuoi_tim_sql="";
